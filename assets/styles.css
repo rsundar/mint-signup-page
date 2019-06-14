@@ -52,4 +52,13 @@ html{
     margin: 0 auto;
     display: block;
 }
-/*END header section styling*/
+.signup-widget-container #signup-wrapper{
+padding:30px;
+margin-right:23%;
+margin-left:23%;
+margin-top:0px;
+margin-bottom: 0px;
+height:50%;
+background-color:black;
+text-align:center;
+}
