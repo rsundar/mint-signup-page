@@ -48,6 +48,7 @@ html{
 
 /*END header section styling*/
 
+/* BEGIN signup section styling */
 .main-container {
     background-color: maroon;
     width: 100%;
@@ -79,3 +80,5 @@ html{
     background-color:black;
     text-align:center;
 }
+
+/*END signup section styling*/
