@@ -46,19 +46,36 @@ html{
     text-align: center;
 }
 
-.signup-logo-container #signup-logo {
+/*END header section styling*/
+
+.main-container {
+    background-color: maroon;
+    width: 100%;
+    height: 80%;
+}
+
+.main-container .signup-widget-container {
+    height: 60%;
+    width: 100%;
+    background-color: blueviolet;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.signup-logo-container .signup-logo {
     height: 23px;
     width: 100%;
     margin: 0 auto;
     display: block;
 }
-.signup-widget-container #signup-wrapper{
-padding:30px;
-margin-right:23%;
-margin-left:23%;
-margin-top:0px;
-margin-bottom: 0px;
-height:50%;
-background-color:black;
-text-align:center;
+
+.signup-widget-container .signup-wrapper{
+    padding:30px;
+    margin-right:23%;
+    margin-left:23%;
+    margin-top:0px;
+    margin-bottom: 0px;
+    height:50%;
+    background-color:black;
+    text-align:center;
 }
