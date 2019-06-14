@@ -68,6 +68,7 @@ html{
     width: 100%;
     margin: 0 auto;
     display: block;
+    background-color: royalblue;
 }
 
 .signup-widget-container .signup-wrapper{
