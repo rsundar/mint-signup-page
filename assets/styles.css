@@ -1,4 +1,4 @@
-/* Base styling*/
+/*BEGIN Base styling*/
 html{
     font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 10px;
@@ -6,7 +6,7 @@ html{
 
 /* END base styling*/
 
-/* Nav bar styling */
+/*BEGIN Nav bar styling */
 .nav-bar-wrapper {
     padding: 10px 30px;
     background-color: blue;
@@ -25,7 +25,7 @@ html{
 
 /*END nav bar section styling*/
 
-/*Header section styling*/
+/*BEGIN Header section styling*/
 .header-logo-container {
     padding: 20px 0px;
     background-color: #a5e5f5;
@@ -83,3 +83,29 @@ html{
 }
 
 /*END signup section styling*/
+
+/*BEGIN footer styling*/
+
+.signup-footer-container {
+    height: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px 0px;
+    list-style: none;
+    background-color: mediumseagreen;
+}
+
+.signup-footer-container #footer-links {
+    padding-top: 5px;
+    background-color: gold;
+    height: 10px;
+}
+
+.signup-copyright-message {
+    background-color: blue;
+    height: 10px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+/*END footer styling section*/
