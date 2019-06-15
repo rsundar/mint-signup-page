@@ -2,6 +2,13 @@
 html{
     font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
 }
 
 /* END base styling*/
@@ -56,7 +63,7 @@ html{
 }
 
 .main-container .signup-widget-container {
-    height: 60%;
+    height: 100%;
     width: 100%;
     background-color: blueviolet;
     margin: 0px 0px 0px 0px;
@@ -73,13 +80,14 @@ html{
 
 .signup-widget-container .signup-wrapper{
     padding:30px;
-    margin-right:23%;
-    margin-left:23%;
+    margin-right:33.3%;
+    margin-left:33.3%;
     margin-top:0px;
     margin-bottom: 0px;
-    height:50%;
+    height:77.5%;
     background-color:black;
     text-align:center;
+    width: 380px;
 }
 
 /*END signup section styling*/
