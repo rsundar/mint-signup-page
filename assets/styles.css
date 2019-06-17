@@ -9,6 +9,7 @@ html{
 body {
     height: 100%;
     width: 100%;
+    background-color:#EDEEF2;
 }
 
 /* END base styling*/
@@ -16,14 +17,12 @@ body {
 /*BEGIN Nav bar styling */
 .nav-bar-wrapper {
     padding: 10px 30px;
-    background-color: blue;
     text-align: left;
 }
 
 .nav-bar-wrapper .nav-bar-container {
     display: block;
     float: right;
-    background-color: green;
     width: 40%;
     height: 100%;
     margin: 0px 0px;
@@ -35,21 +34,11 @@ body {
 /*BEGIN Header section styling*/
 .header-logo-container {
     padding: 20px 0px;
-    background-color: #a5e5f5;
 }
 
 .header-logo-container #main-logo {
     height: 35px;
     width: 100%;
-    background-color: black;
-    text-align: center;
-}
-
-.signup-logo-container {
-    list-style: none;
-    height: 38px;
-    padding-bottom: 4px;
-    background-color: magenta;
     text-align: center;
 }
 
@@ -57,7 +46,6 @@ body {
 
 /* BEGIN signup section styling */
 .main-container {
-    background-color: maroon;
     width: 100%;
     height: 80%;
 }
@@ -65,17 +53,25 @@ body {
 .main-container .signup-widget-container {
     height: 100%;
     width: 100%;
-    background-color: blueviolet;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
 }
+.signup-widget-container .signup-logo-container {
+    list-style: none;
+    height: 38px;
+    padding-bottom: 4px;
+    text-align: center;
+}
 
 .signup-logo-container .signup-logo {
-    height: 23px;
-    width: 100%;
-    margin: 0 auto;
-    display: block;
-    background-color: royalblue;
+    list-style: none;
+    height: 30px;
+    margin: 0px auto;
+    padding-inline-start: 0px;
+}
+
+.signup-logo-container .signup-logo li{
+    display: inline-block;
 }
 
 .signup-widget-container .signup-wrapper{
@@ -85,7 +81,6 @@ body {
     margin-top:0px;
     margin-bottom: 0px;
     height:77.5%;
-    background-color:black;
     text-align:center;
     width: 380px;
 }
@@ -100,17 +95,14 @@ body {
     margin-right: 10%;
     padding: 20px 0px;
     list-style: none;
-    background-color: mediumseagreen;
 }
 
 .signup-footer-container #footer-links {
     padding-top: 5px;
-    background-color: gold;
     height: 10px;
 }
 
 .signup-copyright-message {
-    background-color: blue;
     height: 10px;
     padding: 0px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
