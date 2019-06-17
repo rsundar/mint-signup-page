@@ -1,4 +1,5 @@
 /*BEGIN Base styling*/
+
 html{
     font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 10px;
@@ -15,6 +16,7 @@ body {
 /* END base styling*/
 
 /*BEGIN Nav bar styling */
+
 .nav-bar-wrapper {
     display: flex;
     justify-content: flex-end;
@@ -68,10 +70,10 @@ body {
     font-size: 13.5px;
 }
 
-
 /*END nav bar section styling*/
 
 /*BEGIN Header section styling*/
+
 .header-logo-container {
     padding: 20px 0px;
 }
@@ -85,6 +87,7 @@ body {
 /*END header section styling*/
 
 /* BEGIN signup section styling */
+
 .main-container {
     width: 100%;
     height: 80%;
@@ -154,20 +157,26 @@ body {
 /*END footer styling section*/
 
 /*BEGIN of form input styling*/
+
 .form-element{
     display:block;
 }
+
 .heading-text{
     font-size: 24px;
     color: #4C4C4C;
 }
+
 #subheading-signup {
     font-size: 14px;
     display: block;
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
 .learn-more{
     display: block;
     text-align: center;
 }
+
+/* END form input styling*/
