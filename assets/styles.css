@@ -123,6 +123,9 @@ body {
     height:77.5%;
     text-align:center;
     width: 380px;
+    background:white;
+    border: 1px solid #c7c7c7;
+    border-radius: 2px;
 }
 
 /*END signup section styling*/
@@ -149,3 +152,22 @@ body {
 }
 
 /*END footer styling section*/
+
+/*BEGIN of form input styling*/
+.form-element{
+    display:block;
+}
+.heading-text{
+    font-size: 24px;
+    color: #4C4C4C;
+}
+#subheading-signup {
+    font-size: 14px;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.learn-more{
+    display: block;
+    text-align: center;
+}
