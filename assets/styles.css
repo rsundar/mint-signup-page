@@ -222,3 +222,17 @@ body {
     padding: 1.1rem 0rem;
 }
 /* END form input styling*/
+
+/*BEGIN of form wrapper footer*/
+.signup-wrapper .Terms-of-service{
+    font-style:italic;
+    font-size: 1.2rem;
+    display: block;
+    text-align: center;
+    padding-top: 2.5rem;
+    padding-left: 2rem;
+    font-weight: 400;
+    color: #757575;
+    width:85%;
+    line-height: 2rem;
+}
