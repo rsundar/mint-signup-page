@@ -55,11 +55,13 @@ body {
 
 .navbar-column1 #account-text {
     padding-top: 5px;
-    margin-top: 10px;
+    margin-top: 12px;
 }
 
 .navbar-column1 #forgot-url {
-    padding-bottom: 10px;
+    padding-bottom: 25px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 .navbar-column2 #sign-in-btn {
     padding: 8px 25px 8px 25px;
