@@ -91,7 +91,7 @@ body {
 }
 
 .main-container .signup-widget-container {
-    height: 100%;
+    height: 120%;
     width: 100%;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
@@ -154,20 +154,68 @@ body {
 /*END footer styling section*/
 
 /*BEGIN of form input styling*/
+.singup-form {
+    width: 32rem;
+    padding: 3rem;
+}
+
 .form-element{
     display:block;
+    margin-bottom: 2.4rem;
 }
+
 .heading-text{
-    font-size: 24px;
+    font-size: 2.4rem;
     color: #4C4C4C;
 }
-#subheading-signup {
+
+.signup-wrapper .subheading-signup {
     font-size: 14px;
     display: block;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-bottom: 2.4rem;
 }
+
 .learn-more{
     display: block;
     text-align: center;
 }
+
+.form-element label {
+    display: block;
+    font-size: 1.4rem;
+    text-align: start;
+    margin-bottom: 0.7rem;
+    padding-left: 1.1rem;
+
+}
+
+.form-element input {
+    border: 1px solid #c1c5c8;
+    border-radius: 0.2rem;
+    width: 88%;
+    padding: 0.6rem 1rem;
+    font-size: 1.4rem;
+
+}
+
+.form-element small{
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    display: block;
+    text-align: start;
+    padding-left: 1rem;
+}
+
+.signup-btn {
+    width: 95%;
+    color: white;
+    font-size: 1.6rem;
+    background-color: #0077C5;
+    border: #0077C5;
+    border-radius: 4px;
+    margin-top: 3rem;
+    padding: 1.1rem 0rem;
+}
+/* END form input styling*/
