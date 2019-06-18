@@ -7,10 +7,16 @@ html{
     width: 100%;
 }
 
+a {
+    text-decoration: none;
+    color: #0077C5;
+}
+
 body {
     height: 100%;
     width: 100%;
     background-color:#EDEEF2;
+    color: #757575;
 }
 
 /* END base styling*/
@@ -41,7 +47,8 @@ body {
     align-items: flex-end;
     height: 100%;
     width: 60%;
-    margin-right: 5px;
+    margin-right: 1rem;
+    margin-top: 0.25rem;
     margin-bottom: 10px;
     line-height: 0.05em;
     font-size: 12px;
@@ -56,6 +63,8 @@ body {
 .navbar-column1 #account-text {
     padding-top: 5px;
     margin-top: 12px;
+    color: #757575;
+    font-weight: 500;
 }
 
 .navbar-column1 #forgot-url {
@@ -64,7 +73,7 @@ body {
     margin-top: 5px;
 }
 .navbar-column2 #sign-in-btn {
-    padding: 8px 25px 8px 25px;
+    padding: 8px 20px 8px 20px;
     background: #0077C5;
     border-radius: 4px;
     border: 1px solid #4c4c4c;
