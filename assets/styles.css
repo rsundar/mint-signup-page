@@ -124,7 +124,7 @@ body {
 .signup-logo-container .signup-logo {
     list-style: none;
     height: 30px;
-    margin: 0px auto;
+    margin-right: 4.5rem;
 }
 
 .signup-logo-container .signup-logo li{
