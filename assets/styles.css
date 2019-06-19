@@ -11,9 +11,11 @@ a {
     text-decoration: none;
     color: #0077C5;
 }
+
 a:hover{
     text-decoration: underline;
 }
+
 body {
     height: 100%;
     width: 100%;
@@ -107,7 +109,7 @@ body {
 }
 
 .main-container .signup-widget-container {
-    height: 100%;
+    /*height: 100%;*/
     width: 100%;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
@@ -153,7 +155,7 @@ body {
     margin-left: 23%;
     margin-right: 10%;
     padding: 2rem 0px;
-    margin-top: 1%;
+    margin-top: 7%;
     text-align: center;
 
 }
