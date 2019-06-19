@@ -134,7 +134,7 @@ body {
     margin-left:35.5%;
     margin-top:0px;
     margin-bottom: 0px;
-    height:100%;
+    /*height:100%;*/
     text-align:center;
     width: 32rem;
     background:white;
@@ -232,7 +232,7 @@ body {
 }
 /* END form input styling*/
 
-/*BEGIN of form wrapper footer*/
+/*BEGIN form footer styling*/
 .signup-wrapper .Terms-of-service{
     font-style:italic;
     font-size: 1.2rem;
@@ -245,3 +245,17 @@ body {
     width:85%;
     line-height: 2rem;
 }
+
+.signup-wrapper .recaptcha-footer {
+    display: block;
+    margin-top:3.2rem;
+    margin-bottom: -3rem;
+    margin-right: -3rem;
+    margin-left: -3rem;
+    background-color: #ECEEF1;
+    padding: 1.6rem 3.8rem;
+    font-size: 1rem;
+    text-align: center;
+    width: 95%;
+}
+/*END form footer styling*/
