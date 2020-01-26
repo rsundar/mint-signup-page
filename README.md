@@ -43,12 +43,12 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Rohan Sundar**
 
-- Github: [github](https://www.github.com/rsundar)
+- Github: [rsundar](https://www.github.com/rsundar)
 
 
 👤 **Ibunhabibu**
 
-- Github: [github](https://www.github.com/IBUNHABIBU)
+- Github: [Ibunhabibu](https://www.github.com/IBUNHABIBU)
 
 
 ## 🤝 Contributing
